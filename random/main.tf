@@ -9,7 +9,7 @@ resource "random_pet" "other_animal" {
   keepers = {
     uuid = "${uuid()}" # Force a new name each time
   }
-  length = 5
+  length = 4
 }
 
 output "random_animal" {
